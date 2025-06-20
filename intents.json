@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Greetings!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you later"],
+      "responses": ["Goodbye!", "Have a nice day!", "Talk to you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "I appreciate it"],
+      "responses": ["You're welcome!", "Any time!", "Glad to help!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Can I know your name?"],
+      "responses": ["I'm Rishu, your virtual assistant!", "You can call me Rishu."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather today?", "Is it going to rain?", "Tell me the weather"],
+      "responses": ["I can check the weather for you. Please enable location or tell me your city."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Give me a joke"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I would tell you a joke about construction, but I'm still working on it."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Can you tell me the current time?", "Current time"],
+      "responses": ["It's time to smile! But seriously, check your system clock 😄"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What day is it today?", "What's the date today?", "Today’s date?"],
+      "responses": ["Let me check the date... or you can look at your calendar 😄"]
+    },
+    {
+      "tag": "news",
+      "patterns": ["Tell me the news", "Latest headlines", "What's happening in the world?"],
+      "responses": ["You can check BBC or CNN for the latest news!", "Here's a tip: try Google News."]
+    },
+    {
+      "tag": "covid",
+      "patterns": ["What are the COVID-19 updates?", "Is COVID still active?", "Covid status?"],
+      "responses": ["COVID-19 is still under observation globally. Please refer to official health websites for updates."]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": ["I want to open an account", "How to create an account?", "Create new account"],
+      "responses": ["Visit our signup page and follow the instructions to create a new account."]
+    },
+    {
+      "tag": "resetpassword",
+      "patterns": ["I forgot my password", "Reset password", "Can't login"],
+      "responses": ["Please click 'Forgot Password' on the login page to reset it."]
+    },
+    {
+      "tag": "support",
+      "patterns": ["I need help", "Customer support", "Contact help desk", "Help me"],
+      "responses": ["I'm here to help. What can I assist you with?", "Please describe your issue."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "How to get my money back?", "Refund request"],
+      "responses": ["Please check our refund policy and raise a request through your dashboard."]
+    },
+    {
+      "tag": "orderstatus",
+      "patterns": ["Where is my order?", "Order status", "Track my order"],
+      "responses": ["Please enter your order ID to check the status."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "Your office address?", "Location of your company"],
+      "responses": ["We are based in San Francisco, but we operate globally online."]
+    },
+    {
+      "tag": "language_support",
+      "patterns": ["Do you support Hindi?", "Can I use this in Spanish?", "Available in other languages?"],
+      "responses": ["Currently, we support English. More languages coming soon!"]
+    },
+    {
+      "tag": "cancelorder",
+      "patterns": ["Cancel my order", "I want to cancel", "Cancel request"],
+      "responses": ["Please log in to your account and go to orders to cancel it."]
+    },
+    {
+      "tag": "faq",
+      "patterns": ["Where is the FAQ?", "Help section", "Common questions"],
+      "responses": ["Visit our FAQ page at www.example.com/faq for detailed info."]
+    }
+  ]
+}
